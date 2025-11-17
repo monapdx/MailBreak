@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/monapdx/MailBreak/refs/heads/main/MailBreak.png" width="680">
+
 # MailBreak  
 ### *An Offline Streamlit App for Browsing Your Gmail Messages*
 
@@ -132,5 +134,6 @@ Feel free to open issues, submit pull requests, or suggest improvements.
 **GitHub**: https://github.com/monapdx/MailBreak
 
 ## 📄 License
+
 
 This project is released under the MIT License.
