@@ -1,26 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Test Post</title>
-  <meta name="description" content="This is a test post to see if blog setup is working correctly." />
-  <meta name="blog-editor:title" content="Test Post" />
-  <meta name="blog-editor:excerpt" content="This is a test post to see if blog setup is working correctly." />
-  <meta name="blog-editor:category" content="Setup" />
-  <link rel="stylesheet" href="../style.css" />
-</head>
-<body>
-  <main class="nb-stack-md">
-    <article class="nb-card nb-stack-md blog-post" data-slug="test-post">
-      <span class="nb-label nb-bg-pink">Setup</span>
-      <h1>Test Post</h1>
-      <p class="post-date">May 20, 2026 at 12:22 PM</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Post</title>
+    <meta name="description" content="This is a test post to make sure blog setup is working correctly." />
+    <meta name="blog-editor:title" content="Test Post" />
+    <meta name="blog-editor:excerpt" content="This is a test post to make sure blog setup is working correctly." />
+    <meta name="blog-editor:category" content="Testing" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <!-- NAV (same shell as blog/index.html) -->
+    <nav class="nb-nav">
+      <div class="nb-nav-inner">
+        <div class="nb-nav-group">
+          <div class="nb-logo-stack">
+            <div class="nb-logo-top">BLOG NAME</div>
+            <div class="nb-logo-bottom">GOES HERE</div>
+          </div>
+        </div>
 
-      <div class="post-content nb-stack-sm">
-        <p>Blog post content would normally go here.</p>
+        <div class="nb-nav-group">
+          <a href="../index.html" class="nb-btn">Home</a>
+          <a href="" class="nb-btn">About</a>
+          <a href="../index.html" class="nb-btn nb-btn-pink">Blog</a>
+          <a href="#alerts" class="nb-btn">Help</a>
+        </div>
       </div>
-    </article>
-  </main>
-</body>
+    </nav>
+
+    <section class="nb-section">
+      <div class="nb-container">
+        <article class="nb-card nb-stack-md blog-post" data-slug="test-post">
+          <span class="nb-label nb-bg-pink">Testing</span>
+          <h1>Test Post</h1>
+          <p class="post-date">May 20, 2026 at 12:56 PM</p>
+
+          <div class="post-content nb-stack-sm">
+            <p>Blog post content would normally go here.</p>
+          </div>
+
+          <p class="nb-mt-md">
+            <a href="../index.html" class="nb-btn nb-btn-green">← Back to blog</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- FOOTER (same shell as blog/index.html) -->
+    <footer class="nb-section">
+      <div class="nb-container">
+        <div class="nb-panel">
+          <div class="nb-row-between">
+            <div class="nb-stack-sm">
+              <p class="nb-mb-0"></p>
+            </div>
+
+            <div class="nb-row">
+              <a href="" class="nb-btn">GitHub</a>
+              <a href="" class="nb-btn nb-btn-yellow">Blog Editor</a>
+              <a href="" class="nb-btn nb-btn-pink">Templates</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
